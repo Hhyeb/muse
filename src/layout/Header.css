@@ -1,3 +1,72 @@
+.container{
+    flex-direction: row;
+}
 .app-header{
-    background-color: yellow;
+    background-color:white;
+    margin-top: 20px;
+    flex-direction: column;
+
+}
+.c1img{
+    width: 150px;
+    display: inline-block;
+    padding-left: 30px;
+}
+.museimg{
+    height: 59px;
+    width: 128px;
+}
+.searchbar{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    width: 370px;
+    height: 50px;
+
+    display: inline-block;
+    padding-top: 15px;
+    position: fixed;
+    left: 400px;
+    padding-right: 30px;
+    padding-left: 0px;
+}
+.searchbar input{
+    width: 270px;
+    height: 27px;
+    display: inline-block;
+    padding-left: 20px;
+    border: 0px;
+    border-bottom: 2px solid black;
+
+}
+.searchbar button{
+    padding: 3px;
+    position: fixed;
+    padding-left: 10px;
+    background-color: white;
+    border: 0px;
+}
+.icon{
+    width: 250px;
+    padding-top: 15px;
+    position: fixed;
+    display: inline-block;
+    right: 0px;
+}
+.icon button{
+    background-color: white;
+    border: 0px;
+}
+.pen, .user, .talk{
+    padding-left: 30px;
+    flex-direction:row;
+    display: inline-block;
+}
+.talk{
+    padding-right: 10px;
+}
+.penicon, .usericon, .talkicon{
+    background-color: white;
+    border: 0px;
 }
