@@ -1,0 +1,10 @@
+.search-p{
+    height: 100px;
+    background-color: rgba(250, 0, 212, 0.463);
+    align-items: center;
+    padding-top: 120px;
+}
+span{
+    font-size: 30px;
+    text-align: center;
+}

@@ -1,20 +1,28 @@
 .container{
     flex-direction: row;
+    display: inline-flex;
+    width: 100%;
+    height: 135px;
+    position: fixed;
+    background-color:white;
+    z-index: 100;
 }
 .app-header{
     background-color:white;
     margin-top: 20px;
     flex-direction: column;
-
+    position: fixed;
 }
 .c1img{
     width: 150px;
     display: inline-block;
     padding-left: 30px;
+    position: fixed;
 }
 .museimg{
     height: 59px;
     width: 128px;
+    cursor: pointer;
 }
 .searchbar{
     display: flex;
@@ -23,13 +31,11 @@
     flex-direction: column;
     width: 370px;
     height: 50px;
-
     display: inline-block;
     padding-top: 15px;
     position: fixed;
-    left: 400px;
+    left: 600px;
     padding-right: 30px;
-    padding-left: 0px;
 }
 .searchbar input{
     width: 270px;
@@ -46,6 +52,7 @@
     padding-left: 10px;
     background-color: white;
     border: 0px;
+    cursor: pointer;
 }
 .icon{
     width: 250px;
@@ -69,4 +76,41 @@
 .penicon, .usericon, .talkicon{
     background-color: white;
     border: 0px;
+    cursor: pointer;
+}
+.list{
+    padding-top: 71px;
+    padding-left: 40px;
+}
+.show-menu{
+    width: 376px;
+    height: 500px;
+    position: absolute;
+    left: 0px;
+    transition: 1s;
+}
+.hide-menu{
+    width: 376px;
+    height: 500px;
+    position: absolute;
+    left: -376px;
+    transition: 1s;
+}
+.list-catalog{
+    width: 250px;
+    height: 370px;
+    border: 1px solid rgba(128, 128, 128, 0.434);
+    background-color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.list-catalog li{
+    list-style: none;
+    text-align: center;
+}
+li:hover .woman,li:hover .man,li:hover .bag,li:hover .case,li:hover .fashion,li:hover .shoe{
+    background-color: #FAEDF0;
+}
+.list-catalog p{
+    padding: 10px;
 }

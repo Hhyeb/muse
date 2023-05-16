@@ -1,0 +1,10 @@
+.write-p{
+    height: 100%;
+    background-color: aliceblue;
+    align-items: center;
+    padding-top: 120px;
+}
+span{
+    font-size: 30px;
+    text-align: center;
+}

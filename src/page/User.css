@@ -1,0 +1,10 @@
+.user-p{
+    height: 100%;
+    background-color: rgb(250, 242, 0);
+    align-items: center;
+    padding-top: 120px;
+}
+span{
+    font-size: 30px;
+    text-align: center;
+}

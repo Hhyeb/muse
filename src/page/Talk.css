@@ -1,0 +1,10 @@
+.talk-p{
+    height: 100%;
+    background-color: rgb(38, 121, 255);
+    align-items: center;
+    padding-top: 120px;
+}
+span{
+    font-size: 30px;
+    text-align: center;
+}
