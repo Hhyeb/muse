@@ -1,0 +1,58 @@
+.app-footer{
+    background-color: #231e23;
+    height: 380px;
+}
+.left{
+    float: left;
+    width: 290px;
+    padding-top: 100px;
+    padding-left: 550px;
+    font-size: 15px;
+    height: 280px;
+}
+.left p{
+    color: white;
+}
+.right{
+    float: left;
+    width: 350px;
+    padding-top: 80px;
+    font-size: 15px;
+    padding-left: 100px;
+    height: 280px;
+}
+.right p{
+    color: white;
+}
+.bold{
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+}
+.bold1{
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    width: 80px;
+    cursor: pointer;
+}
+.notice{
+    color: white;
+    text-decoration: underline;
+    padding-top: 15px;
+    cursor: pointer;
+    width: 60px;
+}
+.tel{
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    padding-top: 40px;
+}
+.con, .email, .ad{
+    font-size: 15px;
+    color: white;
+}
+.con{
+    padding-top: 20px;
+}

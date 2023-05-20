@@ -1,0 +1,103 @@
+.style{
+
+    height: 1200px;
+    padding-left: 60px;
+}
+.style .down{
+    width: 200px;
+    text-align: center;
+}
+.hat, .jacket, .shirt, .glass {
+    height: 170px;
+    width: 200px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    float: left;
+}
+.pants{
+    height: 370px;
+    width: 200px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    float: left;
+}
+.style .inner-frame, .style .inner-frame2{
+    list-style: none;
+}
+.style-list{
+    width: 350px;
+    float: left;
+    padding-left: 200px;
+}
+.style-list2{
+    width: 350px;
+    float: left;
+    height: 933px;
+    padding-left: 35px;
+}
+.style .hat{
+    background-image: url('/public/img/infor2.jpg');
+}
+.style .jacket{
+    background-image: url('/public/img/infor4.jpg');
+}
+.style .shirt{
+    background-image: url('/public/img/infor5.jpg');
+}
+.style .glass{
+    background-image: url('/public/img/infor3.jpg');
+}
+.style .pants{
+    background-image: url('/public/img/infor6.jpg');
+}
+.style .inner1, .style .inner2, .style .inner3, .inner4, .inner5{
+    padding: 10px;
+    padding-bottom: 10px;
+    height: 280px;
+    width: 220px;
+    border-radius: 15px;
+}
+.inner5{
+
+    height: 585px;
+    padding-top: 10px;
+}
+.style1-line, .style2-line, .style3-line, .style4-line {
+    border: 1px solid gray;
+    height: 260px;
+    width: 200px;
+    border-radius: 15px;
+    padding: 10px;
+}
+.style5-line{
+    border: 1px solid gray;
+    height: 520px;
+    width: 200px;
+    border-radius: 15px;
+    padding: 10px;
+    padding-top: 50px;
+}
+.model{
+    height: 763px;
+    width: 400px;
+    padding-top: 170px;
+    float: left;
+}
+.model-img{
+    height: 600px;
+    width: 400px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    float: left;
+    background-image: url('/public/img/infor1.jpg');
+    border-radius: 15px;
+    border: 1px solid gray;
+    box-shadow: 0px 0px 15px gray;
+}
+.model-img:hover{
+    cursor: pointer;
+}
+.style1-line:hover, .style2-line:hover, .style3-line:hover, .style4-line:hover, .style5-line:hover{
+    box-shadow: 0px 0px 15px gray;
+    cursor: pointer;
+}

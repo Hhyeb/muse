@@ -1,5 +1,5 @@
 import React from "react";
-import './Header.css';
+import './CSS/Header.css';
 import { FaSearch, FaComment, FaUserAlt, FaPen, FaBars } from "react-icons/fa";
 import {useState} from 'react';
 
@@ -10,8 +10,8 @@ export default function Header(){
     function SearchClick(e){
         window.location.href="/search";
     }
-    function WriteClick(e){
-        window.location.href="/write";
+    function posts(e){
+        window.location.href="/api/members/posts";
     }
     function UserClick(e){
         window.location.href="/user";
@@ -19,8 +19,8 @@ export default function Header(){
     function TalkClick(e){
         window.location.href="/talk";
     }
-    function ProductList(){
-        window.location.href="/productlist";
+    function Category(){
+        window.location.href="/api/categories";
     }
     const [isOpen, setMenu] = useState(false);
     const toggleMenu = () => {
@@ -30,7 +30,8 @@ export default function Header(){
             <div className="container">
                 <div className="app-header">
                     <div className="c1img">
-                        <img onClick={HomeClick} className="museimg" alt="muse" src="img/muse.png" />
+                        <div onClick={HomeClick} className="museimg">MUSE</div>
+                        
                     </div>
                     <div className="searchbar">
                         <input type="text" placeholder="search..." ></input>
@@ -40,7 +41,7 @@ export default function Header(){
                     </div>
                     <div className="icon">
                         <div className="pen">
-                            <button onClick={WriteClick}>
+                            <button onClick={posts}>
                                 <FaPen className="penicon" size="25" color="black" />
                             </button>
                         </div>
@@ -61,12 +62,12 @@ export default function Header(){
                     </div>
                     <ul className={isOpen ? "show-menu" : "hide-menu"}>
                       <div className='list-catalog'>
-                        <li onClick={ProductList}><p className="woman">여성의류</p></li>
-                        <li onClick={ProductList}><p className="man">남성의류</p></li>
-                        <li onClick={ProductList}><p className="shoe">신발</p></li>
-                        <li onClick={ProductList}><p className="bag">가방</p></li>
-                        <li onClick={ProductList}><p className="fashion">패션 악세사리</p></li>
-                        <li onClick={ProductList}><p className="case">폰케이스 / 테크</p></li>
+                        <li onClick={Category}><p className="woman">My Page</p></li>
+                        <li onClick={Category}><p className="man">Product</p></li>
+                        <li onClick={Category}><p className="shoe">Magazine</p></li>
+                        <li onClick={Category}><p className="bag">Customer Service</p></li>
+                        <li onClick={Category}><p className="fashion">Notice</p></li>
+                        <li onClick={Category}><p className="case">폰케이스 / 테크</p></li>
                       </div>
                     </ul>
                 </div>

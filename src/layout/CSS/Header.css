@@ -6,6 +6,8 @@
     position: fixed;
     background-color:white;
     z-index: 100;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.45);
+    box-shadow: 0px 5px 7px rgba(128, 128, 128, 0.397);
 }
 .app-header{
     background-color:white;
@@ -14,14 +16,17 @@
     position: fixed;
 }
 .c1img{
-    width: 150px;
     display: inline-block;
     padding-left: 30px;
     position: fixed;
 }
 .museimg{
+
     height: 59px;
     width: 128px;
+    padding-top: 8px;
+    font-size: 40px;
+    text-align: center;
     cursor: pointer;
 }
 .searchbar{
@@ -29,22 +34,25 @@
     justify-content: center;
     text-align: center;
     flex-direction: column;
-    width: 370px;
-    height: 50px;
+    width: 400px;
+    height: 34px;
     display: inline-block;
-    padding-top: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
     position: fixed;
     left: 600px;
+    top: 28px;
     padding-right: 30px;
+    border: 2px solid black;
+    border-radius: 5px;
 }
 .searchbar input{
-    width: 270px;
-    height: 27px;
+    width: 350px;
+    height: 34px;
     display: inline-block;
     padding-left: 20px;
     border: 0px;
-    border-bottom: 2px solid black;
-
+    font-size: 17px;
 }
 .searchbar button{
     padding: 3px;
@@ -53,6 +61,7 @@
     background-color: white;
     border: 0px;
     cursor: pointer;
+    padding-top: 8px;
 }
 .icon{
     width: 250px;
@@ -82,19 +91,22 @@
     padding-top: 71px;
     padding-left: 40px;
 }
+.listicon:hover{
+    cursor: pointer;
+}
 .show-menu{
     width: 376px;
     height: 500px;
     position: absolute;
     left: 0px;
-    transition: 1s;
+    transition: 0.5s;
 }
 .hide-menu{
     width: 376px;
     height: 500px;
     position: absolute;
     left: -376px;
-    transition: 1s;
+    transition: 0.5s;
 }
 .list-catalog{
     width: 250px;
@@ -110,6 +122,7 @@
 }
 li:hover .woman,li:hover .man,li:hover .bag,li:hover .case,li:hover .fashion,li:hover .shoe{
     background-color: #FAEDF0;
+    cursor: pointer;
 }
 .list-catalog p{
     padding: 10px;

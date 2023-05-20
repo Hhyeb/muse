@@ -1,12 +1,12 @@
 .app-body{
     background-color:white;
     align-items: center;
-    height: 1500px;
+    height: 1600px;
 }
 .c2img{
     width: 1500px;
-    height: 830px;
-    padding-top: 150px;
+    height: 850px;
+    padding-top: 135px;
     padding-left: 60px;
 }
 .homeimg{
@@ -15,8 +15,7 @@
 }
 .what-we-made{
     padding-left: 60px;
-    border: 1px dotted gray;
-    height: 550px;
+    height: 565px;
 }
 .we-made-top{
     height: 120px;
@@ -26,7 +25,6 @@
 }
 .btn{
     padding-left: 1325px;
-    
 }
 .more-btn{
     padding: 0px;
@@ -37,36 +35,41 @@
     height: 40px;
     background-color: white;
     border-radius: 2px;
-    border: 1px solid rgba(128, 128, 128, 0.6);
+    border: 1px solid rgba(128, 128, 128, 0.457);
+    cursor: pointer;
 }
 .card1, .card2, .card3{
+    
+    border-radius: 3px;
     z-index: 0;
-    width: 290px;
-    height: 360px;
-    background-size: 290px 360px;
+    width: 320px;
+    height: 390px;
+    background-size: 320px 390px;
     background-repeat: no-repeat;
     display: inline-block;
+    cursor: pointer;
 }
 .card h3{
     color: white;
     text-align: center;
-    padding-top: 290px;
+    padding-top: 320px;
+    text-shadow: 2px 2px #FD0054;
 }
 .card1{
     position: relative;
     left: 50px;
     background-image: url(/public/img/card1.jpg);
-    box-shadow: -20px 20px #FD0054;
+    box-shadow: -30px 30px #FD0054;
 }
 .card2{
     position: relative;
-    left: 320px;
+    left: 280px;
     background-image: url(/public/img/card2.jpg);
-    box-shadow: -20px -20px #231e23;
+    box-shadow: -30px -30px #231e23;
 }
 .card3{
     position: relative;
-    left: 580px;
+    left: 500px;
     background-image: url(/public/img/card3.jpg);
-    box-shadow: 20px 20px #FD0054;
+    box-shadow: 30px 30px #FD0054;
 }

@@ -1,0 +1,116 @@
+.who-we-are{
+
+    padding-left: 60px;
+    height: 650px;
+}
+.follow-list {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 15px;
+}
+.follow-card {
+    width: 340px;
+    height: 413px;
+    background-color: white;
+    margin-right: 160px;
+    margin-left: 28px;
+    margin-bottom: 20px;
+    border: 11px solid #231e23;
+    border-bottom: 70px solid #231e23;
+}
+.follow-card3{
+    width: 340px;
+    height: 413px;
+    background-color: white;
+    margin-right: 0px;
+    margin-left: 28px;
+    margin-bottom: 20px;
+    border: 11px solid #231e23;
+    border-bottom: 70px solid #231e23;
+}
+.up {
+    display: inline-block;
+    width: 340px;
+    height: 97px;
+}
+.follow-img1, .follow-img2, .follow-img3 {
+    margin-top: 15px;
+    margin-left: 15px;
+    width: 70px;
+    height: 70px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    border-radius: 100%;
+    float: left;
+    cursor: pointer;
+}
+.follow-img1{
+    background-image: url(/public/img/card1.jpg);
+}
+.follow-img2{
+    background-image: url(/public/img/card2.jpg);
+}
+.follow-img3{
+    background-image: url(/public/img/card3.jpg);
+}
+.follow-name {
+    float: left;
+    margin-top: 17px;
+    margin-left: 25px;
+    position: relative;
+    top: 20px;
+    font-size: 18px;
+    
+    cursor: pointer;
+}
+.follow-name:hover{
+    text-decoration: underline;
+}
+.follow-button {
+    margin-top: 25px;
+    margin-left: 88px;
+    float: right;
+    width: 60px;
+    height: 46px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    padding-right: 15px;
+}
+.enter-follow {
+    width: 55px;
+    height: 46px;
+    background-color: #FAEDF0;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 0px;
+}
+.who{
+    border-top: 5px solid black;
+}
+.img1{
+    height: 310px;
+    width: 340px;
+}
+.enter-ht, .enter-talk {
+    float: left;
+    width: 50px;
+    height: 100%;
+    background-color: #231e23;
+    border: none;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin-top: 15px;
+    margin-left: 3px;
+}
+.p-img1{
+    cursor: pointer;
+}
